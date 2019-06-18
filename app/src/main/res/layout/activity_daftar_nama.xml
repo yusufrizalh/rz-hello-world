@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edffde"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnPindahActivity3"
+        android:text="Pindah ke Activity-3"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_margin="6dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Daftar Nama Peserta"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/list_daftar_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
